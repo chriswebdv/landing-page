@@ -54,9 +54,8 @@ p {
 .hero {
     display: flex;
     padding: 16px;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
+    align-content: center;
+    justify-content: end;
     height: 80%; 
 
 }
@@ -119,13 +118,28 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 16px;
-    background-color: #3882FC;
+    background-color: #C59288;
     padding: 24px;
     width: 50%;
     border-radius: 12px;
+    margin-top: 32px;
 }
 
 .info, h3, p {
     font-weight: bold;
     color: #1C282E;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+    background-color: #1F2937;
+    padding: 24px;
+
+}
+
+footer.h3.creator{
+    color: #f9FAF8;
+    gap: 8px;
 }
